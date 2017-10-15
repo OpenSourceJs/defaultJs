@@ -8,7 +8,7 @@
    ExtractTextPlugin = require('extract-text-webpack-plugin');
    HtmlTemplate      = require('html-webpack-template');
 
-   BUILD_DIR         = path.resolve(__dirname, 'dist');
+   BUILD_DIR         = path.resolve(__dirname, './app/assets/dist');
    APP_DIR           = path.resolve(__dirname, './app/views/src');
 
    config = {

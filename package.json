@@ -17,7 +17,7 @@
     "rebuild": "webpack -d --progress --colors",
     "watch": "webpack -d --progress --watch",
     "start": "node index.js || true",
-    "debug-server": "nodemon --debug server.js",
+    "debug-server": "nodemon --debug index.js",
     "heroku": "git push heroku master",
     "heroku-schema": "heroku pg:psql --app edtronics < db/schema.sql",
     "heroku-seed": "heroku pg:psql --app edtronics < db/seed.sql",
