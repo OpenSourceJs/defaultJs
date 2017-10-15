@@ -1,11 +1,11 @@
-(function() {
+(function(express, path, server ) {
 
   'use strict';
 
   require('dotenv').config({ silent: true });
-  const express = require ('express');
-  const path = require('path');
-  const server = express();
+  express = require ('express');
+  path = require('path');
+  server = express();
   const { clientErr, serverErr } = require('./middleware/err.js');
 
   // setup the server middleware
