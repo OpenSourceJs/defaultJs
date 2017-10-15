@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Nav from './Nav/Nav.jsx'
 import './Header.css';
 
 export default class Header extends React.Component {
@@ -14,8 +13,8 @@ export default class Header extends React.Component {
 
   render() {
     return (
-      <div id="head">
-         <h3 className='center'>{this.state.header}</h3>
+      <div>
+
       </div>
     );
   }

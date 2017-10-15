@@ -8,7 +8,7 @@ const { clientErr, serverErr } = require('./middleware/err.js');
 // setup the server middleware
 require('./middleware/serverMiddleware.js')(server);
 
-server.use(express.static(path.join(__dirname, '../dist')));
+server.use(express.static(path.join(__dirname, '../../dist')));
 // setup the api
 server.use('/api', api);
 
