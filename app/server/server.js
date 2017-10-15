@@ -12,7 +12,7 @@
   require('./middleware/serverMiddleware.js')(server);
 
   //serving the view page
-  server.use(express.static(path.join(__dirname, '../../dist')));
+  server.use(express.static(path.join(__dirname, '../assets/dist')));
 
   // setup the api
 
