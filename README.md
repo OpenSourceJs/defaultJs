@@ -1,2 +1,2 @@
-Welcome to my Framework
+Welcome to Default
 
