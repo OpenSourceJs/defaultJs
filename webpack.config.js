@@ -2,6 +2,7 @@
 (function (webpack, path, HtmlWebpackPlugin, ExtractTextPlugin, HtmlTemplate, BUILD_DIR, APP_DIR, config, prodPlugins) {
 
   'use strict';
+
    webpack           = require('webpack');
    path              = require('path');
    HtmlWebpackPlugin = require('html-webpack-plugin');

@@ -1,15 +1,15 @@
-(function () {
+(function(helmet, logger, responseTime, compression, bodyParser) {
 
   'use strict';
 
-  const helmet = require('helmet');
-  const logger = require ('morgan');
-  const responseTime = require('response-time');
-  const compression = require('compression');
-  const bodyParser = require ('body-parser');
+  helmet = require('helmet');
+  logger = require ('morgan');
+  responseTime = require('response-time');
+  compression = require('compression');
+  bodyParser = require ('body-parser');
 
   // setup global function middleware here
-  module.exports = function(server) {
+  module.exports = (server) => {
     server.use(helmet());
     server.use(logger('dev'));
     server.use(compression());
