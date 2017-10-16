@@ -1,22 +1,22 @@
-(function () {
+(function (_, config, noop, consoleLog, logger) {
 
   'use strict';
 
   // no var needed here, colors will attached colors
   // to String.prototype
   require('colors');
-  var _ = require('lodash');
+  _ = require('lodash');
 
-  var config = require('../../../config/config');
+  config = require('../../../config/config');
 
   // create a noop (no operation) function for when loggin is disabled
-  var noop = function(){};
+  noop = function(){};
   // check if loggin is enabled in the config
   // if it is, then use console.log
   // if not then noop
-  var consoleLog = config.logging ? console.log.bind(console) : noop;
+  consoleLog = config.logging ? console.log.bind(console) : noop;
 
-  var logger = {
+  logger = {
       log: function() {
           var tag = '[ ✨ LOG ✨ ]'.green;
           // arguments is an array like object with all the passed
