@@ -10,7 +10,7 @@
    HtmlTemplate      = require('html-webpack-template');
 
    BUILD_DIR         = path.resolve(__dirname, './app/assets/dist');
-   APP_DIR           = path.resolve(__dirname, './app/views/src');
+   APP_DIR           = path.resolve(__dirname, './app/client/src');
 
    config = {
     entry:  ['whatwg-fetch', `${APP_DIR}/index.js`],
