@@ -1,5 +1,5 @@
 node_module/
-app/assets
+app/assets/
 .env
 .travis.yml
 .babelrc
