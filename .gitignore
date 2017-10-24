@@ -1,8 +1,3 @@
 node_module/
-app/assets/
+dist/
 .env
-.travis.yml
-.babelrc
-.eslintrc.json
-.editorconfig
-appveyor.yml
