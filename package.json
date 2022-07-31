@@ -96,7 +96,7 @@
     "jsonwebtoken": "^7.4.1",
     "lodash": "^4.17.4",
     "morgan": "^1.7.0",
-    "node-fetch": "^2.0.0-alpha.1",
+    "node-fetch": "^3.2.10",
     "pg-promise": "^5.5.1",
     "ramda": "^0.25.0",
     "response-time": "^2.3.2"
